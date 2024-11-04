@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px; /* Lebar maksimum body */
+    margin: 0 auto; /* Pusatkan body */
+    
+}
+
+/* Gaya untuk gambar */
+img {
+    max-width: 100%; /* Gambar responsif */
+    height: auto; /* Menjaga aspek rasio */
+    display: block; /* Menghilangkan ruang di bawah gambar */
+}
+
+/* Gaya untuk section */
+section {
+    padding: 20px; /* Ruang dalam section */
+    overflow: hidden; /* Mencegah overflow */
+}
